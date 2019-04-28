@@ -150,6 +150,11 @@ form{
   outline: none;
     border: 0;
    border-bottom: 1px solid black;
+  width:100%;
+    
+}
+.input-borde.tamano-largo{
+    width: 100%;
     
 }
 label{
@@ -162,17 +167,35 @@ label{
 }
 .row{
     width: 100%;
+    margin: 20px 0px;
    
 }
-.col-25{
-    width: 25%;
-    margin: 5px 0px;
+.col-25 , .col-50 , .col-75{
     display: inline-block;
     float: left;
+
+}
+.col-25{
+    width: 23%;
+    margin-right: 2%;
+    
+   
+    
+    
     
 }
 .col-50{
     width:50%;
-    display: inline-block;
-    float: left;
+    
+    
+}
+.col-75{
+    
+    width:73%;
+    margin-right: 2%;
+    
+    
+}
+input[type='checkbox'] { 
+margin-left: 20px;
 }
