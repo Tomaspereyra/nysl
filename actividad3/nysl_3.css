@@ -170,9 +170,14 @@ label{
     margin: 20px 0px;
    
 }
+.row-50{
+    width: 50%;
+    margin: 20px 0px;
+}
 .col-25 , .col-50 , .col-75{
     display: inline-block;
     float: left;
+    margin: 5px 0px;
 
 }
 .col-25{
@@ -198,4 +203,11 @@ label{
 }
 input[type='checkbox'] { 
 margin-left: 20px;
+}
+h4{
+    margin:0;
+}
+
+article{
+    margin: 25px 10px;
 }
